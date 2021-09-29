@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>PASSWORD AND OTP GENERATOR </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital@1&family=Yanone+Kaffeesatz:wght@600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+	<a name="home"></a>
+	<div class="h">
+	<h1>PASSWORD GENERATOR & OTP GENERATOR</h1>
+	
+	<a href="#PASSWORD GENERATOR"><span>PASSWORD GENERATION</span></a>
+	<br>
+	<a href="#OTP GENERATOR"><span> OTP GENERATION </span></a>
+</div>
+
+
+
+	<div class="pass">
+		<a name="PASSWORD GENERATOR"></a>
+		<h2>PASSWORD GENERATOR</h2>
+		<p>Click on create password to generate a new pasword</p>
+		<input type="text" name="" placeholder="Create Password"id="password">
+		<div id="btn" onclick="getpassword();">Create Password</div>
+		<a href="#home" id="lin">Click here to return to Home</a>
+		
+	</div>
+	
+	<div class="otp">
+		<a name="OTP GENERATOR"></a>
+		<h2>OTP GENERATOR</h2>
+		<p>Click on Generate Otp to generate a new OTP of 4 numbers</p>
+		<input type="text" name="" placeholder="Generate OTP"id="otp">
+		<div id="btnn" onclick="getotp();">Generate otp</div>
+		<a href="#home"id="lin">Click here to return to Home</a>
+		
+	</div>
+
+	<script type="text/javascript">
+		function getpassword() {
+			var chars="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()_+{}|:[]?><";
+			var passwordlength=16;
+			var password="";
+			for(var i=0;i<passwordlength;i++)
+			{
+				var Random=Math.floor(Math.random() * chars.length);
+				password+=chars.substring(Random,Random+1);
+
+			}
+        document.getElementById("password").value=password
+		}
+
+	</script>
+	<script type="text/javascript">
+		function getotp() {
+			var chars="0123456789";
+			var passwordlen=4;
+			var otp="";
+			for(var i=0;i<passwordlen;i++)
+			{
+				var Random=Math.floor(Math.random() * chars.length);
+				otp+=chars.substring(Random,Random+1);
+
+			}
+        document.getElementById("otp").value=otp
+		}
+
+	</script>
+
+</body>
+</html>

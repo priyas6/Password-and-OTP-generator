@@ -1,0 +1,258 @@
+body
+{
+	background-image: url("pass.jpg");
+	background-repeat: no-repeat;
+	background-size: 220vh 100vh;
+	user-select: none;
+	background-position: relative;
+
+}
+.h h1
+{
+	position: relative;
+	top: 30px;
+	padding-left: 60px;
+	color: white;
+	font-size: 40px;
+}
+.h a{
+	margin: 20px;
+	position: relative;
+	padding-top: 50px;
+	padding-left: 30px;
+	top: 100px;
+	left: 70px;
+	width: 400px;
+	height: 70px;
+	border: 4px solid indianred;
+	text-decoration: none;
+	display: block;
+	color: white;
+	transition: color 0.5s;
+	background-color: gold;
+
+}
+.h a span{
+	font-family: 'Work Sans', sans-serif;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+	width:0%;
+    height: 100%;
+	margin: auto auto 0;
+	position: relative;
+	color: black;
+	font-size: 35px;
+	font-style: bold;
+	
+}
+.pass
+{
+    padding-top: 10px;
+	position: relative;
+	top: 200px;
+	text-align: center;
+}
+.pass h2
+{
+	font-size: 50px;
+	color: blueviolet;
+}
+.pass p{
+	font-size: 25px;
+	color: green;
+}
+.pass input
+{
+	width: 500px;
+	height: 100px;
+	border: 10px solid black ;
+	font-size: 30px;
+}
+.pass #btn{
+	padding-top: 20px;
+	cursor: pointer;
+    font-size: 25px;
+	position: relative;
+	left: 410px;
+	top: 20px;
+	width: 200px;
+	height: 60px;
+	color: white;
+	border-radius: 15px;
+	background-color: #ff3385;
+	border: 4px solid ;
+}
+.pass #btn:active
+{
+	background: violet;
+}
+.pass #lin
+{
+	position: relative;
+	text-decoration: none;
+	color: darkblue;
+	font-size: 25px;
+	top: 90px;
+
+}
+.otp
+{
+	position: relative;
+	top: 500px;
+	text-align: center;
+}
+.otp h2
+{
+	text-align: center;
+	position: relative;
+	font-size: 50px;
+	color: blueviolet;
+}
+.otp p{
+	top: -400px;
+	padding-bottom: 200px;
+	font-size: 25px;
+	color: green;
+}
+
+.otp input
+{
+
+	position: relative;
+	width: 500px;
+	height: 100px;
+	border: 10px solid black ;
+	font-size: 30px;
+	top: -150px;
+}
+
+.otp #btnn{
+	padding-top: 20px;
+	padding-bottom: -20px;
+	cursor: pointer;
+    font-size: 30px;
+	position: relative;
+	left: 410px;
+	top: 10px;
+	width: 200px;
+	height: 60px;
+	color: white;
+	border-radius: 15px;
+	background-color: #ff3385;
+	border: 4px solid ;
+	top: -100px;
+
+
+}
+.otp #btnn:active
+{
+	background: violet;
+}
+.otp #lin{
+	text-decoration: none;
+	color: darkblue;
+	font-size: 25px;
+
+}
+@media only screen and (max-width: 600px)
+{
+	.h h1
+{
+	position: relative;
+	top: 30px;
+	padding-left: 20px;
+	padding-right: -60px;
+	font-size: 20px;
+}
+.h a{
+	margin: 5px;
+	position: relative;
+	padding-top: 15px;
+	padding-left: 20px;
+	top: 100px;
+	left: 70px;
+	width: 150px;
+	height: 40px;
+	border: 4px solid indianred;
+	text-decoration: none;
+	display: block;
+
+}
+.h a span{
+	font-family: 'Work Sans', sans-serif;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+	width:0%;
+    height: 100%;
+	position: relative;
+	font-size: 20px;
+	
+}
+.pass
+{
+	position: relative;
+	top: 500px;
+}
+.pass h2
+{
+	position: relative;
+	font-size: 40px;
+}
+.pass input
+{
+	position: relative;
+	left: -20px;
+	width: 200px;
+	height: 50px;
+	border: 10px solid black ;
+	font-size: 20px;
+}
+.pass #btn{
+	padding-top: 20px;
+	padding-bottom: -20px;
+    font-size: 20px;
+	position: relative;
+	left: 35px;
+	top: 20px;
+	width: 150px;
+	height: 40px;
+	border-radius: 15px;
+	border: 4px solid ;
+}
+.otp
+{
+	position: relative;
+	top: 750px;
+}
+.otp h2
+{
+	position: relative;
+	font-size: 40px;
+	color: blueviolet;
+}
+.otp input
+{
+	position: relative;
+	left: -20px;
+	width: 200px;
+	height: 50px;
+	border: 10px solid black ;
+	font-size: 20px;
+}
+.otp #btnn{
+	padding-top: 20px;
+	padding-bottom: -20px;
+    font-size: 20px;
+	position: relative;
+	top: -130px;
+	left: 35px;
+	width: 150px;
+	height: 40px;
+	color: white;
+	border-radius: 15px;
+	border: 4px solid ;
+}
+.otp #btnn:active
+{
+	background: violet;
+}
+
+}
